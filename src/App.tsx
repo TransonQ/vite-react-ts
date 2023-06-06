@@ -1,10 +1,11 @@
 import reactLogo from '@/assets/react.svg'
 import { useState } from 'react'
+import { envProcess } from './utils'
 import viteLogo from '/vite.svg'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  console.log(envProcess().VITE_API_URL)
   return (
     <>
       <div>
