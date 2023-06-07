@@ -1,2 +1,1 @@
-export { envProcess } from './envProcess';
 
