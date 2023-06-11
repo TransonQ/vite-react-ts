@@ -2,6 +2,6 @@
   "prettier.enable": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
-    "source.organizeImports": true,
+    // "source.organizeImports.eslint": true,
   },
 }

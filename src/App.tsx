@@ -1,6 +1,6 @@
+import viteLogo from '/vite.svg'
 import reactLogo from '@/assets/react.svg'
 import { useState } from 'react'
-import viteLogo from '/vite.svg'
 
 console.log(import.meta.env.VITE_API_URL)
 
@@ -9,11 +9,11 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a target="_blank" href="https://vitejs.dev">
+          <img src={viteLogo} alt="Vite logo" className="logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a target="_blank" href="https://react.dev">
+          <img src={reactLogo} alt="React logo" className="logo react" />
         </a>
       </div>
       <h1>Vite + React</h1>
