@@ -15,6 +15,7 @@ module.exports = {
   rules: {
     'no-var': 'error',
     'perfectionist/sort-imports': 'warn',
+    '@typescript-eslint/no-explicit-any': 'off',
     'react-refresh/only-export-components': 'warn',
     'perfectionist/sort-objects': [
       'warn',
